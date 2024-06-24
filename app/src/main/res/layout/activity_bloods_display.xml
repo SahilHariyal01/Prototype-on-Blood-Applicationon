@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bloods_display"
+    android:background="@drawable/userdisplay">
+
+
+
+    <!--    <TextView-->
+<!--        android:id="@+id/TV1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="110dp"-->
+<!--        android:layout_marginLeft="110dp"-->
+<!--        android:fontFamily="sans-serif-medium"-->
+<!--        android:gravity="left"-->
+<!--        android:text="Search for Blood"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="25sp" />-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/Button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="150dp"-->
+<!--        android:layout_marginLeft="150dp"-->
+<!--        android:layout_marginTop="75dp"-->
+<!--        android:background="#F15D5D"-->
+<!--        android:text="Click here"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="17sp" />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginTop="140dp">-->
+
+<!--        <ListView-->
+<!--            android:id="@+id/listview1"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_below="@+id/Button"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="5dp">-->
+
+<!--        </ListView>-->
+
+<!--        <ListView-->
+<!--            android:id="@+id/listview"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_below="@+id/Button"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="5dp">-->
+
+<!--        </ListView>-->
+
+
+
+<!--    </LinearLayout>-->
+
+
+    <ImageView
+        android:layout_width="309dp"
+        android:layout_height="249dp"
+        android:src="@drawable/jobs_logo_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center_horizontal"
+        android:text=" DO YOU WANT TO APPLY FOR THIS JOB"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="126dp"
+        android:layout_height="42dp"
+        android:background="#F0F240F8"
+        android:onClick="TO"
+        android:text="Click Here"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.331" />
+
+    <EditText
+        android:id="@+id/nameofjobseeker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your Name"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <EditText
+        android:id="@+id/Qualification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Qualification"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.184" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

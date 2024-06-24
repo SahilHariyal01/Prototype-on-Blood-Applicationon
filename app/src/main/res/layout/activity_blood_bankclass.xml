@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BloodBankclass"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/applicant_login">
+
+
+    <ScrollView
+        android:layout_width="700dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="300sp"
+                android:layout_height="155dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/jobs_logo_2" />
+
+
+            <TextView
+                android:id="@+id/Welcometext"
+                android:layout_width="wrap_content"
+                android:layout_height="86dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/bangers"
+                android:text="Hello there, Welcome"
+                android:textColor="@color/white"
+                android:textSize="36sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Sign in  To Continue"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:layout_gravity="center"
+                android:layout_marginRight="70dp"
+                android:translationX="30dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="301dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/Username"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:hint="USERNAME">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/Usernamesigninbb"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/Password"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    app:passwordToggleEnabled="true"
+                    android:hint="PASSWORD"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/passsigninbb"
+                        android:layout_width="253dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/Forgotpass1"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="5dp"
+                    android:background="#00000000"
+                    android:elevation="0dp"
+                    android:text="Forget Password?"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/FinalSignup1"
+                    android:layout_width="273dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_marginVertical="25dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#F0F240F8"
+                    android:text="go"
+
+                    android:textColor="#fff"
+                    android:textColorHighlight="#4EF321"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/New_User_Sign_Up1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#1A73FA"
+                    android:text="new user sign up"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

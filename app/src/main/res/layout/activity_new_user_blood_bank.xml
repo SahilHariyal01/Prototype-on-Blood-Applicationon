@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blueee"
+    android:scrollbarSize="50dp"
+    tools:context=".SigninBloodBank">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:gravity="center"
+            android:orientation="vertical"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            >
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="385dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:foregroundGravity="center"
+                android:gravity="left"
+                android:text="New Companies Register Here"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints,NotSibling" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/NewBloodBankname"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="375dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="40dp"
+                android:hint="Name Of Company"
+                app:hintTextColor="#F4B432">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/orgname"
+                    android:layout_width="342dp"
+                    android:layout_height="80dp"
+                    android:textColor="@color/white" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/NewBloodBankusername"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="375dp"
+                android:layout_height="80dp"
+                android:hint="USERNAME"
+                app:hintTextColor="#F4B432">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/orgusername"
+                    android:layout_width="342dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="30dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/NewBloodBankpass"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="375dp"
+                android:layout_height="80dp"
+                android:hint="SET PASSWORD"
+                app:hintTextColor="#F4B432">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/orgpass"
+                    android:layout_width="348dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="30dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Newuserphonno"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="375dp"
+                android:layout_height="80dp"
+                android:hint="POSITION LOOKING FOR:"
+                app:hintTextColor="#F4B432">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phonno"
+                    android:layout_width="336dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="30dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/NewBloodBankaddress"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter  Address"
+                app:hintTextColor="#F4B432">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/orgadress"
+                    android:layout_width="330dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="30dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/CreatenewBB"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:background="@color/purple_500"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:fontFamily="@font/bungee"
+                android:text="Create Account" />
+
+            <Button
+                android:id="@+id/AlreadyragisBB"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/purple_500"
+                android:textColor="@color/white"
+                android:fontFamily="@font/bungee"
+                android:textSize="18sp"
+                android:text="Already Registered" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

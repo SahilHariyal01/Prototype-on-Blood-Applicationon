@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JOBS</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="forgate_password">forgate_password</string>
+    <string name="new_user_sign_up">new_user_sign_up</string>
+    <string name="search_your_blood">search_your_blood</string>
+    <string name="blood_bank_login_or_signup">Blood_bank_Login_or_Signup</string>
+    <string name="bdonate_blood">bdonate_blood</string>
+    <string name="title_activity_gpsactivity">Map</string>
+    <string name="title_activity_example">Map</string>
+</resources>
